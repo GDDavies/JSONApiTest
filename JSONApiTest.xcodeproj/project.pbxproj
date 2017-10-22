@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932ABE5F1F9535BB000B79FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ABE5E1F9535BB000B79FB /* DetailViewController.swift */; };
+		932C96931F9C205300B7FA96 /* AddUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C96921F9C205300B7FA96 /* AddUserVC.swift */; };
 		933403B61F93DFA600A22024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933403B51F93DFA600A22024 /* AppDelegate.swift */; };
 		933403B81F93DFA600A22024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933403B71F93DFA600A22024 /* ViewController.swift */; };
 		933403BB1F93DFA600A22024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933403B91F93DFA600A22024 /* Main.storyboard */; };
 		933403BD1F93DFA600A22024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933403BC1F93DFA600A22024 /* Assets.xcassets */; };
 		933403C01F93DFA600A22024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933403BE1F93DFA600A22024 /* LaunchScreen.storyboard */; };
+		934947B11F9BEB0F00251FAC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934947B01F9BEB0F00251FAC /* Models.swift */; };
+		934947B31F9BF72200251FAC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934947B21F9BF72200251FAC /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		932ABE5E1F9535BB000B79FB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		932C96921F9C205300B7FA96 /* AddUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserVC.swift; sourceTree = "<group>"; };
 		933403B21F93DFA600A22024 /* JSONApiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONApiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933403B51F93DFA600A22024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		933403B71F93DFA600A22024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		933403BC1F93DFA600A22024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933403BF1F93DFA600A22024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933403C11F93DFA600A22024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934947B01F9BEB0F00251FAC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		934947B21F9BF72200251FAC /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				933403B51F93DFA600A22024 /* AppDelegate.swift */,
 				933403B71F93DFA600A22024 /* ViewController.swift */,
+				932C96921F9C205300B7FA96 /* AddUserVC.swift */,
+				932ABE5E1F9535BB000B79FB /* DetailViewController.swift */,
+				934947B01F9BEB0F00251FAC /* Models.swift */,
+				934947B21F9BF72200251FAC /* Networking.swift */,
 				933403B91F93DFA600A22024 /* Main.storyboard */,
 				933403BC1F93DFA600A22024 /* Assets.xcassets */,
 				933403BE1F93DFA600A22024 /* LaunchScreen.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932ABE5F1F9535BB000B79FB /* DetailViewController.swift in Sources */,
+				932C96931F9C205300B7FA96 /* AddUserVC.swift in Sources */,
+				934947B31F9BF72200251FAC /* Networking.swift in Sources */,
 				933403B81F93DFA600A22024 /* ViewController.swift in Sources */,
 				933403B61F93DFA600A22024 /* AppDelegate.swift in Sources */,
+				934947B11F9BEB0F00251FAC /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
